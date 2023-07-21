@@ -1,0 +1,30 @@
+{
+  "name": "athletifi-website-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Content Management System for the AthletiFi website built on Strapi",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.11.7",
+    "@strapi/plugin-users-permissions": "4.11.7",
+    "@strapi/plugin-i18n": "4.11.7",
+    "pg": "8.8.0"
+  },
+  "author": {
+    "name": "Quentin Vidal"
+  },
+  "strapi": {
+    "uuid": "e6415c2f-5618-4948-9054-dfef83403ac9"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
