@@ -38,7 +38,7 @@
     "content": {
       "displayName": "content",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "content.content"
     },
     "slug": {
