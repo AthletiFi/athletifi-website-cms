@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-list",
     "pluralName": "news-lists",
-    "displayName": "News List"
+    "displayName": "News List",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,41 @@
   "attributes": {
     "text": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "by": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isLatest": {
+      "type": "boolean"
+    },
+    "content": {
+      "displayName": "content",
+      "type": "component",
+      "repeatable": false,
+      "component": "content.content"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "text"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::news-category.news-category"
     }
   }
 }
