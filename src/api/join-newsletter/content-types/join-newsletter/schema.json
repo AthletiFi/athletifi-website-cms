@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "join_newsletters",
+  "info": {
+    "singularName": "join-newsletter",
+    "pluralName": "join-newsletters",
+    "displayName": "Join Newsletter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Newsletter": {
+      "type": "enumeration",
+      "enum": [
+        "email"
+      ]
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
