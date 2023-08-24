@@ -15,11 +15,11 @@
     "title": {
       "type": "string"
     },
-    "categories": {
+    "news": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToMany",
       "target": "api::news-list.news-list",
-      "private": true
+      "inversedBy": "categories"
     }
   }
 }

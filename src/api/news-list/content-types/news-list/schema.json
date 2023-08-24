@@ -32,9 +32,6 @@
         "audios"
       ]
     },
-    "isLatest": {
-      "type": "boolean"
-    },
     "content": {
       "displayName": "content",
       "type": "component",
@@ -47,9 +44,15 @@
     },
     "categories": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToMany",
       "target": "api::news-category.news-category",
-      "private": true
+      "mappedBy": "news"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "news"
     }
   }
 }
