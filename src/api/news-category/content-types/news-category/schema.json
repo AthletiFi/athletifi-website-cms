@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-category",
     "pluralName": "news-categories",
-    "displayName": "News Category"
+    "displayName": "News Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,11 @@
     "title": {
       "type": "string"
     },
-    "News": {
+    "news": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::news-list.news-list"
+      "relation": "manyToMany",
+      "target": "api::news-list.news-list",
+      "inversedBy": "categories"
     }
   }
 }
