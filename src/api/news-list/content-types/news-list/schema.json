@@ -48,7 +48,8 @@
     "categories": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::news-category.news-category"
+      "target": "api::news-category.news-category",
+      "private": true
     }
   }
 }

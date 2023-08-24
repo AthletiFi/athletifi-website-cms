@@ -4,7 +4,8 @@
   "info": {
     "singularName": "join-newsletter",
     "pluralName": "join-newsletters",
-    "displayName": "Join Newsletter"
+    "displayName": "Join Newsletter",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,9 @@
       ]
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "unique": true,
+      "required": true
     }
   }
 }
