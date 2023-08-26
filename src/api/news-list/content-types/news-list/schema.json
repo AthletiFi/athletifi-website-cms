@@ -12,35 +12,32 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "text": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
-    },
-    "by": {
-      "type": "string"
+      "type": "text",
+      "required": true
     },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "content": {
       "displayName": "content",
       "type": "component",
       "repeatable": true,
-      "component": "content.content"
+      "component": "content.content",
+      "required": true
     },
     "slug": {
       "type": "uid",
-      "targetField": "text"
+      "required": true
     },
     "categories": {
       "type": "relation",
