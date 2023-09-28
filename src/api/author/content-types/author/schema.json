@@ -4,7 +4,8 @@
   "info": {
     "singularName": "author",
     "pluralName": "authors",
-    "displayName": "Author"
+    "displayName": "Author",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,16 +17,20 @@
       "required": true
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "designation": {
       "type": "enumeration",
       "enum": [
-        "Sr. Chief Editor"
+        "Sr. Chief Editor",
+        "Editor",
+        "Author",
+        "Founder"
       ]
     },
     "order": {
