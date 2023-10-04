@@ -11,14 +11,14 @@
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.0.4",
-    "@strapi/plugin-email": "^4.13.7",
-    "@strapi/plugin-i18n": "4.11.7",
-    "@strapi/plugin-users-permissions": "4.11.7",
-    "@strapi/provider-email-sendgrid": "^4.13.7",
-    "@strapi/strapi": "4.11.7",
-    "better-sqlite3": "8.5.0",
-    "pg": "8.8.0",
-    "strapi-plugin-transformer": "^3.1.0"
+    "@strapi/plugin-email": "^4.14.3",
+    "@strapi/plugin-i18n": "^4.14.3",
+    "@strapi/plugin-users-permissions": "^4.14.3",
+    "@strapi/provider-email-sendgrid": "^4.14.3",
+    "@strapi/strapi": "^4.14.3",
+    "better-sqlite3": "^8.7.0",
+    "pg": "^8.11.3",
+    "strapi-plugin-transformer": "^3.1.2"
   },
   "author": {
     "name": "A Strapi developer"
