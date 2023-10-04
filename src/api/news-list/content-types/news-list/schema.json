@@ -4,7 +4,7 @@
   "info": {
     "singularName": "news-list",
     "pluralName": "news-lists",
-    "displayName": "News List",
+    "displayName": "News Articles",
     "description": ""
   },
   "options": {
@@ -17,7 +17,7 @@
       "required": true,
       "unique": true
     },
-    "description": {
+    "shortDescription": {
       "type": "text",
       "required": true
     },
@@ -40,17 +40,17 @@
       "type": "uid",
       "required": true
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::news-category.news-category",
-      "mappedBy": "news"
-    },
     "author": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::author.author",
       "inversedBy": "news"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::news-category.news-category",
+      "mappedBy": "newsArticle"
     }
   }
 }

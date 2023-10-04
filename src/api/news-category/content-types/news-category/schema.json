@@ -17,7 +17,7 @@
       "unique": true,
       "required": true
     },
-    "news": {
+    "newsArticle": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::news-list.news-list",
