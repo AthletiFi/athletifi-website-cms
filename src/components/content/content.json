@@ -6,11 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "subheading": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "body": {
       "type": "customField",
       "options": {
         "preset": "toolbar"
