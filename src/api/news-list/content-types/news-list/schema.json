@@ -17,7 +17,7 @@
       "required": true,
       "unique": true
     },
-    "shortDescription": {
+    "previewSummary": {
       "type": "text",
       "required": true
     },

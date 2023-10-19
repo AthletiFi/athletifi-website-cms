@@ -800,7 +800,7 @@ export interface ApiNewsListNewsList extends Schema.CollectionType {
   };
   attributes: {
     title: Attribute.String & Attribute.Required & Attribute.Unique;
-    shortDescription: Attribute.Text & Attribute.Required;
+    previewSummary: Attribute.Text & Attribute.Required;
     image: Attribute.Media & Attribute.Required;
     content: Attribute.Component<'content.content', true> & Attribute.Required;
     slug: Attribute.UID & Attribute.Required;
