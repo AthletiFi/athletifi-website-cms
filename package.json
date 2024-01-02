@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@babel/generator": "^7.23.6",
     "@strapi/plugin-email": "^4.14.3",
     "@strapi/plugin-i18n": "^4.14.3",
     "@strapi/plugin-users-permissions": "^4.14.3",
