@@ -832,6 +832,46 @@ export interface ApiNewsListNewsList extends Schema.CollectionType {
   };
 }
 
+export interface ApiSummerSelectSignupSummerSelectSignup
+  extends Schema.CollectionType {
+  collectionName: 'summer_select_signups';
+  info: {
+    singularName: 'summer-select-signup';
+    pluralName: 'summer-select-signups';
+    displayName: 'summer-select-signup';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    email: Attribute.Email & Attribute.Required & Attribute.Unique;
+    name: Attribute.String & Attribute.Required;
+    playerName: Attribute.String & Attribute.Required;
+    birthYear: Attribute.Date & Attribute.Required;
+    address: Attribute.String &
+      Attribute.Required &
+      Attribute.DefaultTo<'Address'>;
+    currentTeam: Attribute.String;
+    playerAge: Attribute.Integer & Attribute.Required;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::summer-select-signup.summer-select-signup',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::summer-select-signup.summer-select-signup',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -852,6 +892,7 @@ declare module '@strapi/types' {
       'api::join-newsletter.join-newsletter': ApiJoinNewsletterJoinNewsletter;
       'api::news-category.news-category': ApiNewsCategoryNewsCategory;
       'api::news-list.news-list': ApiNewsListNewsList;
+      'api::summer-select-signup.summer-select-signup': ApiSummerSelectSignupSummerSelectSignup;
     }
   }
 }
