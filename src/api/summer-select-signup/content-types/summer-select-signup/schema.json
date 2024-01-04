@@ -4,7 +4,7 @@
   "info": {
     "singularName": "summer-select-signup",
     "pluralName": "summer-select-signups",
-    "displayName": "summer-select-signup",
+    "displayName": "Summer Select Registration",
     "description": ""
   },
   "options": {
@@ -17,31 +17,110 @@
       "required": true,
       "unique": true
     },
-    "name": {
+    "parentFirstName": {
       "type": "string",
       "required": true,
       "unique": false
     },
-    "playerName": {
+    "playerFirstName": {
       "type": "string",
       "required": true,
       "unique": false
-    },
-    "birthYear": {
-      "type": "date",
-      "required": true
-    },
-    "address": {
-      "type": "string",
-      "default": "Address",
-      "required": true
     },
     "currentTeam": {
       "type": "string"
     },
-    "playerAge": {
-      "type": "integer",
+    "playerLastName": {
+      "type": "string",
       "required": true
+    },
+    "parentLastName": {
+      "type": "string",
+      "required": true
+    },
+    "playerDOB": {
+      "type": "date",
+      "required": true
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Prefer not to say"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "regex": "^(\\+?1\\s?)?(\\([0-9]{3}\\)|[0-9]{3})[\\s.-]?[0-9]{3}[\\s.-]?[0-9]{4}$",
+      "required": false
+    },
+    "streetAddress": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "zipCode": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "Alabama",
+        "Alaska",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "Florida",
+        "Georgia",
+        "Hawaii",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey",
+        "New Mexico",
+        "New York",
+        "North Carolina",
+        "North Dakota",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Rhode Island",
+        "South Carolina",
+        "South Dakota",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virginia",
+        "Washington",
+        "West Virginia",
+        "Wisconsin",
+        "Wyoming"
+      ]
     }
   }
 }

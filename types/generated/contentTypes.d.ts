@@ -838,7 +838,7 @@ export interface ApiSummerSelectSignupSummerSelectSignup
   info: {
     singularName: 'summer-select-signup';
     pluralName: 'summer-select-signups';
-    displayName: 'summer-select-signup';
+    displayName: 'Summer Select Registration';
     description: '';
   };
   options: {
@@ -846,14 +846,71 @@ export interface ApiSummerSelectSignupSummerSelectSignup
   };
   attributes: {
     email: Attribute.Email & Attribute.Required & Attribute.Unique;
-    name: Attribute.String & Attribute.Required;
-    playerName: Attribute.String & Attribute.Required;
-    birthYear: Attribute.Date & Attribute.Required;
-    address: Attribute.String &
-      Attribute.Required &
-      Attribute.DefaultTo<'Address'>;
+    parentFirstName: Attribute.String & Attribute.Required;
+    playerFirstName: Attribute.String & Attribute.Required;
     currentTeam: Attribute.String;
-    playerAge: Attribute.Integer & Attribute.Required;
+    playerLastName: Attribute.String & Attribute.Required;
+    parentLastName: Attribute.String & Attribute.Required;
+    playerDOB: Attribute.Date & Attribute.Required;
+    Gender: Attribute.Enumeration<['Male', 'Female', 'Prefer not to say']>;
+    phoneNumber: Attribute.String;
+    streetAddress: Attribute.String & Attribute.Required;
+    city: Attribute.String & Attribute.Required;
+    zipCode: Attribute.String & Attribute.Required;
+    state: Attribute.Enumeration<
+      [
+        'Alabama',
+        'Alaska',
+        'Arizona',
+        'Arkansas',
+        'California',
+        'Colorado',
+        'Connecticut',
+        'Delaware',
+        'Florida',
+        'Georgia',
+        'Hawaii',
+        'Idaho',
+        'Illinois',
+        'Indiana',
+        'Iowa',
+        'Kansas',
+        'Kentucky',
+        'Louisiana',
+        'Maine',
+        'Maryland',
+        'Massachusetts',
+        'Michigan',
+        'Minnesota',
+        'Mississippi',
+        'Missouri',
+        'Montana',
+        'Nebraska',
+        'Nevada',
+        'New Hampshire',
+        'New Jersey',
+        'New Mexico',
+        'New York',
+        'North Carolina',
+        'North Dakota',
+        'Ohio',
+        'Oklahoma',
+        'Oregon',
+        'Pennsylvania',
+        'Rhode Island',
+        'South Carolina',
+        'South Dakota',
+        'Tennessee',
+        'Texas',
+        'Utah',
+        'Vermont',
+        'Virginia',
+        'Washington',
+        'West Virginia',
+        'Wisconsin',
+        'Wyoming'
+      ]
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
