@@ -852,7 +852,10 @@ export interface ApiSummerSelectSignupSummerSelectSignup
     playerLastName: Attribute.String & Attribute.Required;
     parentLastName: Attribute.String & Attribute.Required;
     playerDOB: Attribute.Date & Attribute.Required;
-    Gender: Attribute.Enumeration<['Male', 'Female', 'Prefer not to say']>;
+    playerGender: Attribute.Enumeration<
+      ['Male', 'Female', 'Prefer not to say']
+    > &
+      Attribute.Required;
     phoneNumber: Attribute.String;
     streetAddress: Attribute.String & Attribute.Required;
     city: Attribute.String & Attribute.Required;
