@@ -42,13 +42,14 @@
       "type": "date",
       "required": true
     },
-    "Gender": {
+    "playerGender": {
       "type": "enumeration",
       "enum": [
         "Male",
         "Female",
         "Prefer not to say"
-      ]
+      ],
+      "required": true
     },
     "phoneNumber": {
       "type": "string",
