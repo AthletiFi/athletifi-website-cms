@@ -845,7 +845,7 @@ export interface ApiSummerSelectSignupSummerSelectSignup
     draftAndPublish: true;
   };
   attributes: {
-    email: Attribute.Email & Attribute.Required & Attribute.Unique;
+    email: Attribute.Email & Attribute.Required;
     parentFirstName: Attribute.String & Attribute.Required;
     playerFirstName: Attribute.String & Attribute.Required;
     currentTeam: Attribute.String;
