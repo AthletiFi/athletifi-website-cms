@@ -732,7 +732,7 @@ export interface ApiContactUsMessageContactUsMessage
     draftAndPublish: true;
   };
   attributes: {
-    fullName: Attribute.String;
+    name: Attribute.String;
     email: Attribute.Email;
     message: Attribute.Text;
     createdAt: Attribute.DateTime;
