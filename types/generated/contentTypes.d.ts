@@ -719,6 +719,40 @@ export interface ApiAuthorAuthor extends Schema.CollectionType {
   };
 }
 
+export interface ApiContactUsMessageContactUsMessage
+  extends Schema.CollectionType {
+  collectionName: 'contact_us_messages';
+  info: {
+    singularName: 'contact-us-message';
+    pluralName: 'contact-us-messages';
+    displayName: 'Contact Us Message';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    name: Attribute.String;
+    email: Attribute.Email;
+    message: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::contact-us-message.contact-us-message',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::contact-us-message.contact-us-message',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiJoinNewsletterJoinNewsletter extends Schema.CollectionType {
   collectionName: 'join_newsletters';
   info: {
@@ -949,6 +983,7 @@ declare module '@strapi/types' {
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
       'api::author.author': ApiAuthorAuthor;
+      'api::contact-us-message.contact-us-message': ApiContactUsMessageContactUsMessage;
       'api::join-newsletter.join-newsletter': ApiJoinNewsletterJoinNewsletter;
       'api::news-category.news-category': ApiNewsCategoryNewsCategory;
       'api::news-list.news-list': ApiNewsListNewsList;
