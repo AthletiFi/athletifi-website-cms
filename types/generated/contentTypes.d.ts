@@ -948,9 +948,10 @@ export interface ApiSummerSelectSignupSummerSelectSignup
         'Wyoming'
       ]
     >;
-    stripeID: Attribute.String;
+    stripePaymentLink: Attribute.String;
     stripePaid: Attribute.Boolean & Attribute.DefaultTo<false>;
     eligible: Attribute.Boolean;
+    earlyBird: Attribute.Boolean & Attribute.DefaultTo<false>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

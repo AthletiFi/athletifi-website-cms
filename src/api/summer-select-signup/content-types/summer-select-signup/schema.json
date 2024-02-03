@@ -44,7 +44,11 @@
     },
     "playerGender": {
       "type": "enumeration",
-      "enum": ["Male", "Female", "Prefer not to say"],
+      "enum": [
+        "Male",
+        "Female",
+        "Prefer not to say"
+      ],
       "required": true
     },
     "phoneNumber": {
@@ -119,7 +123,7 @@
         "Wyoming"
       ]
     },
-    "stripeID": {
+    "stripePaymentLink": {
       "type": "string",
       "required": false
     },
@@ -131,6 +135,10 @@
     "eligible": {
       "type": "boolean",
       "required": false
+    },
+    "earlyBird": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
