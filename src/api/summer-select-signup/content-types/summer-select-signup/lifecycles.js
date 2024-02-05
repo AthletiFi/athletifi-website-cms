@@ -60,4 +60,31 @@ module.exports = {
       console.log(response.body);
     }
   },
+
+  async afterUpdate(event) {
+    const { result, data } = event;
+
+    console.log("result " + result.stripePaymentLink)
+   
+
+    // Check if the specific fields were updated
+    if (result.stripePaymentLink && result.eligible && !result.stripePaid){
+      const emailContent = {
+        to: result.email,
+        from: `AthletiFi Select <${process.env.SENDGRID_DEFAULT_EMAIL_FROM}>`,
+        replyTo: process.env.SENDGRID_DEFAULT_EMAIL_REPLY_TO,
+        subject: "Your entry was updated",
+        text: `Hello ${result.parentFirstName},
+
+        Your entry was updated. Please check the changes here: ${result.parentFirstName}`,
+        };
+  
+        try {
+          await strapi.plugins["email"].services.email.send(emailContent);
+          console.log(`Email confirmation of update sent to ${result.email}`)
+        } catch ({response}) {
+          console.log(response.body);
+        }
+      }
+    },
 };
