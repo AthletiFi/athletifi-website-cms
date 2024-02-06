@@ -5,11 +5,11 @@ const {sendPaymentReminders} = require('../src/api/summer-select-signup/services
 
 
 module.exports = async () => {
-    cron.schedule('*/5 * * * * *', async () => {
-        console.log('Cron job running');
-        // This will run every 5 days at 00:00.
-        await sendPaymentReminders();
-    });
+    // cron.schedule('*/5 * * * * *', async () => {
+    //     console.log('Cron job running');
+    //     // This will run every 5 days at 00:00.
+    //     await sendPaymentReminders();
+    // });
 };
 
 // seconds for testing '*/5 * * * * *'
