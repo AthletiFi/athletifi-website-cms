@@ -1,14 +1,15 @@
 module.exports = {
     async sendPaymentReminders() {
-        // console.log(Object.keys(strapi.services));
-    console.log('sendPaymentReminders called');
+      const tenDaysAgo = new Date();
+      tenDaysAgo.setDate(tenDaysAgo.getDate() - 10);
     const summerSelectSignupService = strapi.query('api::summer-select-signup.summer-select-signup');
-    console.log(summerSelectSignupService);
     const users = await summerSelectSignupService.findMany({
-        where: { stripePaid: false }, // Adjust based on actual fields
+        where: { 
+          stripePaid: false, 
+          eligible: true,
+          updatedAt: tenDaysAgo
+      }, 
     });
-    console.log('Users to send reminders to:', users);
-  
       for (const user of users) {
         const emailContent = {
           to: user.email,
