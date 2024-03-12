@@ -2,12 +2,20 @@ module.exports = {
     async sendPaymentReminders() {
       const tenDaysAgo = new Date();
       tenDaysAgo.setDate(tenDaysAgo.getDate() - 10);
+      console.log("Date = ", tenDaysAgo)
+
+      const sixtySecondsAgo = new Date(new Date().getTime() - (60 * 1000));
+      console.log("sixty seconds ago:", sixtySecondsAgo);
+
     const summerSelectSignupService = strapi.query('api::summer-select-signup.summer-select-signup');
     const users = await summerSelectSignupService.findMany({
         where: { 
           stripePaid: false, 
           eligible: true,
-          updatedAt: tenDaysAgo
+          // updatedAt: tenDaysAgo
+          updatedAt: {
+            $lt: tenDaysAgo 
+        },
       }, 
     });
       for (const user of users) {
@@ -18,7 +26,7 @@ module.exports = {
           subject: "need to pay",
           text: `Hello ${user.parentFirstName},
   
-          pay now: ${user.parentFirstName}`,
+          pay now: ${user.stripePaymentLink}`,
         };
   
         try {
