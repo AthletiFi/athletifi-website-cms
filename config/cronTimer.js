@@ -5,10 +5,10 @@ const {sendPaymentReminders} = require('../src/api/summer-select-signup/services
 
 
 module.exports = async () => {
-    // cron.schedule('0 0 */8 * *', async () => {
-    cron.schedule('*/20 * * * * *', async () => {
+    cron.schedule('0 0 */8 * *', async () => {
+    // cron.schedule('*/50 * * * * *', async () => {
         console.log('Cron job running');
-        // await sendPaymentReminders();
+        await sendPaymentReminders();
     });
 };
 
