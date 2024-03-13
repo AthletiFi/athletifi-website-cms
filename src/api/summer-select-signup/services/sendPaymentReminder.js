@@ -1,10 +1,12 @@
 module.exports = {
     async sendPaymentReminders() {
-      const tenDaysAgo = new Date();
-      tenDaysAgo.setDate(tenDaysAgo.getDate() - 10);
-      console.log("Date = ", tenDaysAgo)
+      // const tenDaysAgo = new Date();
+      // tenDaysAgo.setDate(tenDaysAgo.getDate() - 10);
+      const sevenDaysAgo = new Date();
+      sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+      console.log("Date = ", sevenDaysAgo)
 
-      const sixtySecondsAgo = new Date(new Date().getTime() - (60 * 1000));
+      // const sixtySecondsAgo = new Date(new Date().getTime() - (60 * 1000));
       // console.log("sixty seconds ago:", sixtySecondsAgo);
 
     const summerSelectSignupService = strapi.query('api::summer-select-signup.summer-select-signup');
@@ -14,7 +16,7 @@ module.exports = {
           eligible: true,
           // updatedAt: tenDaysAgo,
           updatedAt: {
-            $lt: sixtySecondsAgo 
+            $lt: sevenDaysAgo 
         },
       }, 
     });
