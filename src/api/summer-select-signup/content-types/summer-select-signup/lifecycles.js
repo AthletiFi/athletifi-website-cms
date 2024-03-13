@@ -625,7 +625,7 @@ www.athletifiselect.com
 
   async afterUpdate(event) {
     const { result, data } = event;
-console.log(result)
+    console.log(result)
   // Check if the specific fields were updated
     if (result.stripePaymentLink && result.eligible && !result.stripePaid){
       const emailContent = {
