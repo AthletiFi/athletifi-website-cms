@@ -558,7 +558,7 @@ www.athletifiselect.com
                                                                   <div
                                                                     style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:24px;text-align:center;color:#99AAB5;">
                                                                     Sent by AthletiFi &bull;
-                                                                    <a href="https://www.athleti.fi/news" style="color: #0092c4; text-decoration: none">Check Our
+                                                                    <a href="https://www.athleti.fi/news?page=1" style="color: #0092c4; text-decoration: none">Check Our
                                                                     Blog</a>
                                                                     &bull; <a href="https://www.instagram.com/athletifi/"
                                                                       style="color: #0092c4; text-decoration: none">@athletifi</a>
@@ -1182,7 +1182,7 @@ AthletiFi Team
                                                             <div
                                                               style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:24px;text-align:center;color:#99AAB5;">
                                                               Sent by AthletiFi &bull;
-                                                              <a href="https://www.athleti.fi/news" style="color: #0092c4; text-decoration: none">Check Our
+                                                              <a href="https://www.athleti.fi/news?page=1" style="color: #0092c4; text-decoration: none">Check Our
                                                               Blog</a>
                                                               &bull; <a href="https://www.instagram.com/athletifi/"
                                                                 style="color: #0092c4; text-decoration: none">@athletifi</a>
