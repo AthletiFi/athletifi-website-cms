@@ -6,9 +6,10 @@ const {sendPaymentReminders} = require('../src/api/summer-select-signup/services
 
 module.exports = async () => {
   if (process.env.SERVE_MODE) {
-    // Runs at 11:14 AM UTC on the 6th, 14th, 22nd, and 29th of every month.
-    cron.schedule('14 11 6,14,22,29 * *', async () => {
-    // cron.schedule('0 0 */8 * *', async () => {
+    
+    // cron.schedule('14 11 6,14,22,29 * *', async () => { // Runs at 11:14 AM UTC on the 6th, 14th, 22nd, and 29th of every month.
+    cron.schedule('14 11 * * *', async () => { // Runs every day at 11:14 AM UTC.
+    // cron.schedule('*/10 * * * * *', async () => { // Runs every 10 seconds
       console.log(`[${new Date().toISOString()}] Cron job running! Time to CRON!!!`);
       await sendPaymentReminders();
     });
