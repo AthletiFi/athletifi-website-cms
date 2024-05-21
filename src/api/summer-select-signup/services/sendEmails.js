@@ -6,6 +6,7 @@ module.exports = {
     const usersWhoPaid = await summerSelectSignupService.findMany({
       where: {
         // stripePaid: true,
+        // email: 'example@test.com',
         eligible: true,
       },
     });
