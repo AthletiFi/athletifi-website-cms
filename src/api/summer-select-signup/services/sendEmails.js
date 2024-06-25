@@ -7,6 +7,7 @@ module.exports = {
       where: {
         // stripePaid: true,
         // email: 'example@test.com',
+        // email: 'cjuiliano0515@comcast.net',
         eligible: true,
       },
     });
