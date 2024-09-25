@@ -278,7 +278,7 @@ www.athletifiselect.com
                                                                           <a href="https://www.athletifiselect.com" target="_blank">
                                                                           <img height="38"
                                                                             src="https://vidalco.in/uploads/Athleti_Fi_Select_Logo_small_3529534c6b.png"
-                                                                            style="border:0;display:block;outline:none;text-decoration:none;height:100%;width:100%;font-size:13px;"
+                                                                            style="border:0;display:block;outline:none;text-decoration:none;width:90%;font-size:13px;"
                                                                             width="140" />
                                                                           </a>
                                                                         </td>
@@ -341,9 +341,10 @@ www.athletifiselect.com
                                                                 <div
                                                                   style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#737F8D;">
                                                                   <p>Hello ${result.parentFirstName},</p>
-                                                                  <span style="font-weight: 400;"> We are thrilled for your interest in signing up ${result.playerFirstName} for 
+                                                                  <span style="font-weight: 400;"> We are thrilled for your interest in signing up ${result.playerFirstName} for <a
                                                                       href="https://www.athletifiselect.com"
-                                                                      style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;"> AthletiFi Winter Select</a>! Thank you for taking the first step towards an incredible winter of soccer.</span>
+                                                                      style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;"> AthletiFi Winter Select</a>! Thank you for taking the first step towards an incredible winter of soccer.
+                                                                  </span>
                                                                   <p>
                                                                   </p>
                                                                   <p>Here's what you can look forward to:
