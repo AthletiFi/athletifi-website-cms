@@ -278,7 +278,7 @@ www.athletifiselect.com
                                                                           <a href="https://www.athletifiselect.com" target="_blank">
                                                                           <img height="38"
                                                                             src="https://vidalco.in/uploads/Athleti_Fi_Select_Logo_small_3529534c6b.png"
-                                                                            style="border:0;display:block;outline:none;text-decoration:none;height:100%;width:100%;font-size:13px;"
+                                                                            style="border:0;display:block;outline:none;text-decoration:none;width:90%;font-size:13px;"
                                                                             width="140" />
                                                                           </a>
                                                                         </td>
