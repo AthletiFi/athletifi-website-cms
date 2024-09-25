@@ -1185,17 +1185,26 @@ www.athletifiselect.com
         Next Steps:
 
         📋Waivers and Questionnaire:
-        In the coming weeks, we will send you a set of standard waivers which will need to be signed before the start of the program. We will also send you a questionnaire to gather important information, such as shirt size, to ensure we have everything set for ${result.playerFirstName} on day 1.
-        
+        Please complete the following tasks as soon as possible:
+        1. Complete the questionnaire using the following link: https://forms.gle/hwZWbjJJ6PAfN8Qq5
+        2. Print out and fill in the Waiver Form: https://athletifi.com/:b:/s/AthletiFi/EWyPkRQgvNJFqTv7QxhC7HAB_ls1BD3ZeqeBXe5G8Y_j4A?e=SKWk47
+        3. Print out and fill in the Concussion Consent Form - https://athletifi.com/:b:/s/AthletiFi/EX0iYpO60jBGlXNFIzcqxXQBgwi6T077XyxTpoAWmq93lw?e=5VqfQV
+          - NOTE: If you are unable to print the forms, please let us know and we will provide one for you to fill out at the next training session.
+
+        👕 **Uniforms:**
+        AthletiFi jerseys will be provided. Please ensure your child has navy blue shorts and socks for all training sessions and tournaments.
+
+        📱 **Join TeamSnap:**
+        Look out for an invite to join our TeamSnap group, where we will share important updates and communications throughout the summer.
+
         ⚽Program Details: 
         As a reminder, here are the key details for the AthletiFi Summer Select program:
 
         📍 Location: Arcadia University, Jean Lenox West Field (450 South Easton Road, Glenside, PA 19038)
         🗓️ Dates: Every Tuesday and Thursday from June 11 to July 25, with a break during Independence week.
         ⏰ Time: Each session will be from 5:30 to 7:00 p.m.
-        
+
         🏆 Tournaments:
-        • Hershey Summer Classic: June 15-16
         • EDP Summer Sizzler: July 27-28
         Please mark your calendars and stay tuned for final confirmations and any additional tournament opportunities.
 
@@ -1335,11 +1344,9 @@ www.athletifiselect.com
       color: #4F5660 !important;
       }
       div,
-      li {
-      color: #2E3338;
-      }
       p,
-      span {
+      span,
+      li {
       font-size: 14px;
       line-height: 20px;
       color: #4F5660 !important;
@@ -1518,7 +1525,23 @@ www.athletifiselect.com
                                                               <p>
                                                                 In the coming weeks, we will send you a set of standard waivers which will need to be signed before the start of the program. We will also send you a questionnaire to gather important information, such as shirt size, to ensure we have everything set for ${result.playerFirstName} on day 1.
                                                               </p>
+                                                              <ol>
+                                                                <li>Complete the <a href="https://forms.gle/hwZWbjJJ6PAfN8Qq5" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;"><b>questionnaire</b></a>.</li>
+                                                                <li>Print out and sign the <a href="https://athletifi.sharepoint.com/:b:/s/AthletiFi/EWyPkRQgvNJFqTv7QxhC7HAB_ls1BD3ZeqeBXe5G8Y_j4A?e=SKWk47" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;"><b>Waiver</b></a>.</li>
+                                                                <li>Print out and sign the <a href="https://athletifi.sharepoint.com/:b:/s/AthletiFi/EX0iYpO60jBGlXNFIzcqxXQBgwi6T077XyxTpoAWmq93lw?e=5VqfQV" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;"><b>Concussion Consent Form</b></a>.</li>
+                                                              </ol>
                                                             </div>
+                                                            <h4>👕&nbsp;Uniforms</h4>
+                                                            <p>
+                                                              AthletiFi jerseys will be provided. Please ensure your child has navy blue shorts and socks for all training sessions and tournaments.
+                                                            </p>
+                                                            <h4>📱&nbsp;Join TeamSnap</h4>
+                                                            <p>
+                                                              Look out for an invite to join our TeamSnap group, where we will share important updates and communications throughout the summer.
+                                                            </p>
+                                                            <p>
+                                                              If you do not receive a TeamSnap email in the next few days, please reach out to us at <a href="mailto:welcome@athletifiselect.com?subject=Question%20about%20AthletiFi%20Select" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4">welcome@athletifiselect.com</a>!
+                                                            </p>
                                                             <h4>⚽&nbsp;Program Recap</h4>
                                                             <p>As a reminder, here are the key details for the AthletiFi Summer Select program:</p>
                                                             <p><strong>📍&nbsp;Location: </strong>Arcadia University, Jean Lenox West Field (450 South Easton Road, Glenside, PA 19038)</p>
@@ -1530,7 +1553,7 @@ www.athletifiselect.com
                                                                 style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
                                                                 <span style="font-weight: 400;"><a href="https://www.hersheysoccer.org/summerclassic"
                                                                   style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">Hershey
-                                                                Summer Classic:</a> June 15-16</span>
+                                                                Summer Classic:</a> June 15-16<b>[completed]</b></span>
                                                               </li>
                                                               <li
                                                                 style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
@@ -1745,7 +1768,7 @@ www.athletifiselect.com
       <![endif]-->
     </div>
 </html>
-        `,
+`,
         };
   
         try {
