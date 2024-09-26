@@ -276,10 +276,10 @@ www.athletifiselect.com
                                                                       <tr>
                                                                         <td style="width:140px;">
                                                                           <a href="https://www.athletifiselect.com" target="_blank">
-                                                                          <img height="38"
-                                                                            src="https://vidalco.in/uploads/Athleti_Fi_Select_Logo_small_3529534c6b.png"
-                                                                            style="border:0;display:block;outline:none;text-decoration:none;width:90%;font-size:13px;"
-                                                                            width="140" />
+                                                                          <img 
+                                                                            src="https://vidalco.in/uploads/athletifi_select_horizontal_logo_e5a1398639.png"
+                                                                            style="border:0;display:block;outline:none;text-decoration:none;width:240px;font-size:13px;"
+                                                                          />
                                                                           </a>
                                                                         </td>
                                                                       </tr>
@@ -870,10 +870,10 @@ www.athletifiselect.com
                                                                 <tr>
                                                                   <td style="width:140px;">
                                                                     <a href="https://www.athletifiselect.com" target="_blank">
-                                                                    <img height="38"
-                                                                      src="https://vidalco.in/uploads/Athleti_Fi_Select_Logo_small_3529534c6b.png"
-                                                                      style="border:0;display:block;outline:none;text-decoration:none;width:90%;font-size:13px;"
-                                                                      width="140" />
+                                                                    <img 
+                                                                      src="https://vidalco.in/uploads/athletifi_select_horizontal_logo_e5a1398639.png"
+                                                                      style="border:0;display:block;outline:none;text-decoration:none;width:240px;font-size:13px;"
+                                                                    />
                                                                     </a>
                                                                   </td>
                                                                 </tr>
@@ -1451,10 +1451,10 @@ www.athletifiselect.com
                                                                 <tr>
                                                                   <td style="width:140px;">
                                                                     <a href="https://www.athletifiselect.com" target="_blank">
-                                                                    <img height="38"
-                                                                      src="https://vidalco.in/uploads/Athleti_Fi_logo_horizontal_small_b8288b9c0a.png"
-                                                                      style="border:0;display:block;outline:none;text-decoration:none;height:38px;width:100%;font-size:13px;"
-                                                                      width="140" />
+                                                                    <img 
+                                                                      src="https://vidalco.in/uploads/athletifi_select_horizontal_logo_e5a1398639.png"
+                                                                      style="border:0;display:block;outline:none;text-decoration:none;width:240px;font-size:13px;"
+                                                                    />
                                                                     </a>
                                                                   </td>
                                                                 </tr>
