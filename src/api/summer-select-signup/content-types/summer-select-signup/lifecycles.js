@@ -11,589 +11,490 @@ module.exports = {
       text: `
 Hello ${result.parentFirstName},
 
-We are thrilled for your interest in signing up ${result.playerFirstName} for AthletiFi Winter Select! Thank you for taking the first step towards an incredible winter of soccer.
-Here's what you can look forward to:
+Thank you for registering ${result.playerFirstName} for AthletiFi Summer Select 2025! We're excited to have you join our championship-winning program for another incredible summer of soccer development.
 
 📍 Training Location:
-All training sessions will be held at Arcadia University, at the Jean Lenox West Field. Here are the details:
-Field: Arcadia University, Jean Lenox West Field
-Address: 450 South Easton Road, Glenside, PA 19038
+Arcadia University, Jean Lenox West Field
+450 South Easton Road, Glenside, PA 19038
 
-Program Schedule:
-🗓️ Dates: November 13, 2024 to first week of January 2025
-⏰ Time: Each session will run from 6:00 PM to 7:30 PM ET on Wednesdays
-Note: The session in the first week of January will be on Thursday, January 2nd, 2025.
+⚽️ Program Schedule:
+Each week we will have two evening training sessions on Tuesdays and Thursdays, where we will focus on developing technical skills, tactical understanding, and game intelligence.
 
-⚽️ Meet Your Coaches:
-This year we have an outstanding coaching team. Who will your coaches be? Read more about Brian Blasy, Darren John and Ashley "AJ" Johnson, via the coaches page on the AthletiFi website.
+🗓️ Training Dates:
+- Week 1: June 10 & 12
+- Week 2: June 17 & 19
+- Week 3: June 24 & 26
+- (Break for Independence Day week)
+- Week 4: July 8 & 10
+- Week 5: July 15 & 17
+- Week 6: July 22 & 24
 
-🏆 YSC League Participation:
-- Seven-game schedule plus playoffs (scheduled for January 4, 2025)
-- Game Location: YSC Sports, Wayne, PA
-- Game Days: Vary by age group and gender (see schedule below)
-- Game Duration: 40 minutes (6 field players + 1 goalkeeper)
+⏰ Training times will be confirmed and communicated to all participants well in advance of the program start date.
 
-Game Schedule at YSC:
-- Boys U8-U11: Saturdays
-- Boys U12-U13: Fridays
-- Boys U14 and above: Saturdays
-- Girls U8-U10: Mondays
-- Girls U11: Tuesdays
-- Girls U12-U13: Fridays
-- Girls U14 and above: Sundays
+🏆 Competitive Opportunities:
+Building on our incredible 2024 season - where every AthletiFi Select team earned championship honors - we're planning exciting tournament opportunities for Summer 2025. We'll share specific tournament details as they are confirmed.
 
-💸 Next Step - Registration Payment:
-The next step in securing ${result.playerFirstName}'s spot is to complete the registration payment of $400. We will send a separate email shortly with a unique payment link for you to complete this process securely.
+📱 AthletiFi Player Cards & Dashboard:
+Each player will receive their own AthletiFi player card with access to our digital platform for tracking progress and achievements throughout the summer.
 
-💬 Stay Tuned:
-We're just as excited as you are for the winter ahead! Keep an eye on your inbox for our follow-up email containing the payment link and any additional information you might need.
-Thank you for choosing the AthletiFi Winter Select Program for your soccer journey in 2024-2025. Let's make it a season to remember!
+💫 Next Steps:
+The next step in securing ${result.playerFirstName}'s spot is to complete the registration payment. You'll receive a separate email shortly with your secure payment link. Once payment is completed, you'll be all set for an amazing summer of soccer!
 
-Thank you,
+Keep an eye on your inbox - we'll be sharing more updates about the program, tournaments, and other exciting details as we get closer to summer. We can't wait to see ${result.playerFirstName} on the field!
+
+Cheers,
 
 AthletiFi Select Team
 www.athletifiselect.com
 
-🙋 Questions? Please don't hesitate to contact us at welcome@athletifiselect.com. Your excitement and involvement make our program truly special, and we're here to ensure you have all the information you need.
-            `,
-      html: `
-      <!doctype html>
-      <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
-        xmlns:o="urn:schemas-microsoft-com:office:office">
-        <head>
-          <title>
-          </title>
-          <!--[if !mso]><!-->
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <!--<![endif]-->
-          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <style type="text/css">
-            #outlook a {
-            padding: 0;
-            }
-            body {
-            margin: 0;
-            padding: 0;
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-            }
-            table,
-            td {
-            border-collapse: collapse;
-            mso-table-lspace: 0pt;
-            mso-table-rspace: 0pt;
-            }
-            img {
-            border: 0;
-            height: auto;
-            line-height: 100%;
-            outline: none;
-            text-decoration: none;
-            -ms-interpolation-mode: bicubic;
-            }
-            p {
-            display: block;
-            margin: 13px 0;
-            }
-          </style>
-          <!--[if mso]>
-          <noscript>
-            <xml>
-              <o:OfficeDocumentSettings>
-                <o:AllowPNG/>
-                <o:PixelsPerInch>96</o:PixelsPerInch>
-              </o:OfficeDocumentSettings>
-            </xml>
-          </noscript>
-          <![endif]-->
-          <!--[if lte mso 11]>
-          <style type="text/css">
-            .mj-outlook-group-fix { width:100% !important; }
-          </style>
-          <![endif]-->
-          <!--[if !mso]><!-->
-          <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet" type="text/css">
-          <style type="text/css">
-            @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-          </style>
-          <!--<![endif]-->
-          <style type="text/css">
-            @media only screen and (min-width:480px) {
-            .mj-column-per-100 {
-            width: 100% !important;
-            max-width: 100%;
-            }
-            }
-          </style>
-          <style media="screen and (min-width:480px)">
-            .moz-text-html .mj-column-per-100 {
-            width: 100% !important;
-            max-width: 100%;
-            }
-          </style>
-          <style type="text/css">
-            @media only screen and (max-width:480px) {
-            table.mj-full-width-mobile {
-            width: 100% !important;
-            }
-            td.mj-full-width-mobile {
-            width: auto !important;
-            }
-            }
-          </style>
-          <style type="text/css">
-            * {
-            font-family: Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
-            }
-            h2 {
-            font-weight: 700 !important;
-            font-size: 20px;
-            }
-            ul {
-            margin-bottom: 16px !important;
-            }
-            h3 {
-            font-weight: 700 !important;
-            }
-            h4 {
-            font-weight: 600 !important;
-            margin-bottom: 0px !important;
-            color: #11568c !important;
-            font-size: 16px;
-            }
-            strong {
-            color: #4F5660 !important;
-            }
-            div,
-            li {
-            color: #2E3338;
-            }
-            p,
-            span {
-            font-size: 14px;
-            line-height: 20px;
-            color: #4F5660 !important;
-            }
-            .no-style {
-            font-size: unset;
-            line-height: unset;
-            color: unset !important;
-            }
-            .cta-button a {
-            padding: 10px !important;
-            font-size: 14px !important;
-            display: block !important;
-            /* Makes the button fully clickable, not just the text */
-            }
-            .download-button a {
-            padding: 8px 24px !important;
-            font-size: 14px !important;
-            }
-            .cta-button {
-            margin: 24px 0px !important;
-            }
-            .help-text p {
-            font-size: 12px;
-            margin: 0;
-            }
-            .footer *:not(a) {
-            color: #747F8D !important;
-            }
-            .round-border {
-            overflow: hidden;
-            border-radius: 8px;
-            }
-            .social-media div {
-            text-align: center !important;
-            }
-            .social-media-col {
-            width: 40px !important;
-            }
-          </style>
-          <!-- prettier-ignore -->
-        </head>
-        <body style="word-spacing:normal;background-color:#F9F9F9;">
-          <div style="background-color:#F9F9F9;">
-            <!--[if mso | IE]>
-            <table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:604;" width="604" >
-              <tr>
-                <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-                  <![endif]-->
-                  <div style="margin:0px auto;max-width:604px;">
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-                      <tbody>
+🙋 Questions? We're here to help! Contact us anytime at welcome@athletifiselect.com
+      `,
+      html: `<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+      #outlook a {
+      padding: 0;
+      }
+      body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+      }
+      img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+      }
+      p {
+      display: block;
+      margin: 13px 0;
+      }
+    </style>
+    <!--[if mso]>
+    <noscript>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type="text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+    </style>
+    <!--<![endif]-->
+    <style type="text/css">
+      @media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+      }
+      }
+    </style>
+    <style media="screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+      }
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile {
+      width: 100% !important;
+      }
+      td.mj-full-width-mobile {
+      width: auto !important;
+      }
+      }
+    </style>
+    <style type="text/css">
+      * {
+      font-family: Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
+      }
+      h2 {
+      font-weight: 700 !important;
+      font-size: 20px;
+      }
+      ul {
+      margin-bottom: 16px !important;
+      }
+      h3 {
+      font-weight: 700 !important;
+      }
+      h4 {
+      font-weight: 600 !important;
+      margin-bottom: 0px !important;
+      color: #11568c !important;
+      font-size: 16px;
+      }
+      strong {
+      color: #4F5660 !important;
+      }
+      div,
+      li {
+      color: #2E3338;
+      }
+      p,
+      span {
+      font-size: 14px;
+      line-height: 20px;
+      color: #4F5660 !important;
+      }
+      .no-style {
+      font-size: unset;
+      line-height: unset;
+      color: unset !important;
+      }
+      .cta-button a {
+      padding: 10px !important;
+      font-size: 14px !important;
+      display: block !important;
+      /* Makes the button fully clickable, not just the text */
+      }
+      .download-button a {
+      padding: 8px 24px !important;
+      font-size: 14px !important;
+      }
+      .cta-button {
+      margin: 24px 0px !important;
+      }
+      .help-text p {
+      font-size: 12px;
+      margin: 0;
+      }
+      .footer *:not(a) {
+      color: #747F8D !important;
+      }
+      .round-border {
+      overflow: hidden;
+      border-radius: 8px;
+      }
+      .social-media div {
+      text-align: center !important;
+      }
+      .social-media-col {
+      width: 40px !important;
+      }
+    </style>
+    <!-- prettier-ignore -->
+  </head>
+  <body style="word-spacing:normal;background-color:#F9F9F9;">
+    <div style="background-color:#F9F9F9;">
+      <!--[if mso | IE]>
+      <table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:604;" width="604" >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+            <![endif]-->
+            <div style="margin:0px auto;max-width:604px;">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                <tbody>
+                  <tr>
+                    <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+                      <!--[if mso | IE]>
+                      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <![endif]-->
+                        <style type="text/css">
+                          html,
+                          body,
+                          * {
+                          -webkit-text-size-adjust: none;
+                          text-size-adjust: none;
+                          }
+                          a {
+                          color: #1eb0f4;
+                          text-decoration: none;
+                          }
+                          a:hover {
+                          text-decoration: underline;
+                          }
+                        </style>
+                        <!--[if mso | IE]>
                         <tr>
-                          <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-                            <!--[if mso | IE]>
-                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                              <![endif]-->
-                              <style type="text/css">
-                                html,
-                                body,
-                                * {
-                                -webkit-text-size-adjust: none;
-                                text-size-adjust: none;
-                                }
-                                a {
-                                color: #1eb0f4;
-                                text-decoration: none;
-                                }
-                                a:hover {
-                                text-decoration: underline;
-                                }
-                              </style>
-                              <!--[if mso | IE]>
+                          <td class="" width="604" >
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:604px;" width="604" bgcolor="transparent" >
                               <tr>
-                                <td class="" width="604" >
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:604px;" width="604" bgcolor="transparent" >
-                                    <tr>
-                                      <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-                                        <![endif]-->
-                                        <div style="background:transparent;background-color:transparent;margin:0px auto;max-width:604px;">
-                                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                            style="background:transparent;background-color:transparent;width:100%;">
-                                            <tbody>
+                                <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+                                  <![endif]-->
+                                  <div style="background:transparent;background-color:transparent;margin:0px auto;max-width:604px;">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;background-color:transparent;width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="direction:ltr;font-size:0px;padding:20px 0px;text-align:center;">
+                                            <!--[if mso | IE]>
+                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                               <tr>
-                                                <td style="direction:ltr;font-size:0px;padding:20px 0px;text-align:center;">
-                                                  <!--[if mso | IE]>
-                                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                                                    <tr>
-                                                      <td class="" style="vertical-align:top;width:604px;" >
-                                                        <![endif]-->
-                                                        <div class="mj-column-per-100 mj-outlook-group-fix"
-                                                          style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                            style="vertical-align:top;" width="100%">
-                                                            <tbody>
-                                                              <tr>
-                                                                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                                    style="border-collapse:collapse;border-spacing:0px;">
-                                                                    <tbody>
-                                                                      <tr>
-                                                                        <td style="width:140px;">
-                                                                          <a href="https://www.athletifiselect.com" target="_blank">
-                                                                          <img 
-                                                                            src="https://vidalco.in/uploads/athletifi_select_horizontal_logo_e5a1398639.png"
-                                                                            style="border:0;display:block;outline:none;text-decoration:none;width:240px;font-size:13px;"
-                                                                          />
-                                                                          </a>
-                                                                        </td>
-                                                                      </tr>
-                                                                    </tbody>
-                                                                  </table>
-                                                                </td>
-                                                              </tr>
-                                                            </tbody>
-                                                          </table>
-                                                        </div>
-                                                        <!--[if mso | IE]>
-                                                      </td>
-                                                    </tr>
-                                                  </table>
+                                                <td class="" style="vertical-align:top;width:604px;" >
                                                   <![endif]-->
+                                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td style="width:140px;">
+                                                                    <a href="https://www.athletifiselect.com" target="_blank">
+                                                                    <img src="https://vidalco.in/uploads/athletifi_select_horizontal_logo_e5a1398639.png" style="border:0;display:block;outline:none;text-decoration:none;width:240px;font-size:13px;" />
+                                                                    </a>
+                                                                  </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+                                                  <!--[if mso | IE]>
                                                 </td>
                                               </tr>
-                                            </tbody>
-                                          </table>
-                                        </div>
-                                        <!--[if mso | IE]>
-                                      </td>
-                                    </tr>
-                                  </table>
+                                            </table>
+                                            <![endif]-->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]>
                                 </td>
                               </tr>
-                              <![endif]-->
-                              <!--[if mso | IE]>
+                            </table>
+                          </td>
+                        </tr>
+                        <![endif]-->
+                        <!--[if mso | IE]>
+                        <tr>
+                          <td class="shadow-outlook round-border-outlook" width="604" >
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="shadow-outlook round-border-outlook" role="presentation" style="width:604px;" width="604" bgcolor="#ffffff" >
                               <tr>
-                                <td class="shadow-outlook round-border-outlook" width="604" >
-                                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="shadow-outlook round-border-outlook" role="presentation" style="width:604px;" width="604" bgcolor="#ffffff" >
-                                    <tr>
-                                      <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-                                        <![endif]-->
-                                        <div class="shadow round-border"
-                                          style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:604px;">
-                                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                            style="background:#ffffff;background-color:#ffffff;width:100%;">
-                                            <tbody>
+                                <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+                                  <![endif]-->
+                                  <div class="shadow round-border" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:604px;">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="direction:ltr;font-size:0px;padding:40px 50px;text-align:center;">
+                                            <!--[if mso | IE]>
+                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                               <tr>
-                                                <td style="direction:ltr;font-size:0px;padding:40px 50px;text-align:center;">
+                                                <td class="" style="vertical-align:top;width:504px;" >
+                                                  <![endif]-->
+                                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td align="center" style="padding:10px 0;">
+                                                            <img src="https://vidalco.in/uploads/summer_select_25_banner_7152d4a9b3.jpg" style="width:100%; height:auto;">
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                            <div style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#737F8D;">
+                                                              <p>Hello ${result.parentFirstName},</p>
+                                                              <p>Thank you for registering ${result.playerFirstName} for AthletiFi Summer Select 2025! We're excited to have you join our championship-winning program for another incredible summer of soccer development.</p>
+                                                              <h4>📍 Training Location:</h4>
+                                                              <p>Arcadia University, Jean Lenox West Field<br> 450 South Easton Road, Glenside, PA 19038</p>
+                                                              <h4>⚽️ Program Schedule:</h4>
+                                                              <p>Each week we will have two evening training sessions on Tuesdays and Thursdays, where we will focus on developing technical skills, tactical understanding, and game intelligence.</p>
+                                                              <h4>🗓️ Training Dates:</h4>
+                                                              <ul>
+                                                                <li>Week 1: June 10 & 12</li>
+                                                                <li>Week 2: June 17 & 19</li>
+                                                                <li>Week 3: June 24 & 26</li>
+                                                                <li>(Break for Independence Day week)</li>
+                                                                <li>Week 4: July 8 & 10</li>
+                                                                <li>Week 5: July 15 & 17</li>
+                                                                <li>Week 6: July 22 & 24</li>
+                                                              </ul>
+                                                              <h4>⏰ Training Times:</h4>
+                                                              <p>Training times will be confirmed and communicated to all participants well in advance of the program start date.</p>
+                                                              <h4>🏆 Competitive Opportunities:</h4>
+                                                              <p>Building on our incredible 2024 season - where every AthletiFi Select team earned championship honors - we're planning exciting tournament opportunities for Summer 2025. We'll share specific tournament details as they are confirmed.</p>
+                                                              <h4>📱 AthletiFi Player Cards & Dashboard:</h4>
+                                                              <p>Each player will receive their own AthletiFi player card with access to our digital platform for tracking progress and achievements throughout the summer.</p>
+                                                              <h4>💫 Next Steps:</h4>
+                                                              <p>The next step in securing ${result.playerFirstName}'s spot is to complete the registration payment. You'll receive a separate email shortly with your secure payment link. Once payment is completed, you'll be all set for an amazing summer of soccer!</p>
+                                                              <p>Keep an eye on your inbox - we'll be sharing more updates about the program, tournaments, and other exciting details as we get closer to summer. We can't wait to see ${result.playerFirstName} on the field!</p>
+                                                              <p>Best regards,<br> AthletiFi Select Team<br>
+                                                                <a href="https://www.athletifiselect.com" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">www.athletifiselect.com</a>
+                                                              </p>
+                                                              <p>🙋 Questions? We're here to help! Contact us anytime at <a href="mailto:welcome@athletifiselect.com" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">welcome@athletifiselect.com</a></p>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="center" style="font-size:0px;padding:10px 0;word-break:break-word;">
+                                                            <p style="border-top:solid 1px #DCDDDE;font-size:1px;margin:0px auto;width:100%;">
+                                                            </p>
+                                                            <!--[if mso | IE]>
+                                                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #DCDDDE;font-size:1px;margin:0px auto;width:504px;" role="presentation" width="504px" >
+                                                              <tr>
+                                                                <td style="height:0;line-height:0;"> &nbsp;</td>
+                                                              </tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td style="font-size:0px;padding:120;word-break:break-word;">
+                                                            <!--[if mso | IE]>
+                                                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:504px;" width="504" >
+                                                              <tr>
+                                                                <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+                                                                  <![endif]-->
+                                                                  <div style="margin:0px auto;max-width:504px;">
+                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+                                                                      <tbody>
+                                                                        <tr>
+                                                                          <td style="direction:ltr;font-size:0px;padding:120;text-align:center;">
+                                                                            <!--[if mso | IE]>
+                                                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                                                              <tr>
+                                                                                <td align="left" class="help-text-outlook" style="" >
+                                                                                  <![endif]-->
+                                                                                  <div style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:1;text-align:left;color:#747F8D;">
+                                                                                    <p>🙋 Questions? Please don't hesitate to <a href="mailto:welcome@athletifiselect.com?subject=Question%20about%20AthletiFi%20Select" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4">contact us</a>. Your excitement and involvement make our program truly special, and we're here to ensure you have all the information you need.</p>
+                                                                                  </div>
+                                                                                  <!--[if mso | IE]>
+                                                                                </td>
+                                                                              </tr>
+                                                                            </table>
+                                                                            <![endif]-->
+                                                                          </td>
+                                                                        </tr>
+                                                                      </tbody>
+                                                                    </table>
+                                                                  </div>
+                                                                  <!--[if mso | IE]>
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
                                                   <!--[if mso | IE]>
-                                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                                                    <tr>
-                                                      <td class="" style="vertical-align:top;width:504px;" >
-                                                        <![endif]-->
-                                                        <div class="mj-column-per-100 mj-outlook-group-fix"
-                                                        style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                                          style="vertical-align:top;" width="100%">
-                                                          <tbody>
-                                                            <tr>
-                                                              <td align="center" style="padding:10px 0;">
-                                                                <img src="https://vidalco.in/uploads/New_poster_bg_copy3423_2c6ba4817c.jpg" style="width:100%; height:auto;">
-                                                              </td>
-                                                            </tr>
-                                                            <tr>
-                                                              <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-                                                                <div
-                                                                  style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#737F8D;">
-                                                                  <p>Hello ${result.parentFirstName},</p>
-                                                                  <span style="font-weight: 400;"> We are thrilled for your interest in signing up ${result.playerFirstName} for <a
-                                                                      href="https://www.athletifiselect.com"
-                                                                      style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;"> AthletiFi Winter Select</a>! Thank you for taking the first step towards an incredible winter of soccer.
-                                                                  </span>
-                                                                  <p>
-                                                                  </p>
-                                                                  <p>Here's what you can look forward to:
-                                                                  </p>
-                                                                  <p>
-                                                                  <h4>📍&nbsp;Training Location:</h4>
-                                                                  <span style="font-weight: 400;">All training sessions will be held at&nbsp;Arcadia
-                                                                    University, at the <a
-                                                                      href="https://arcadiaknights.com/sports/2019/1/23/facility-page-draft%202.aspx"
-                                                                      style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">Jean
-                                                                    Lenox West Field</a>. Here are the details:</span>
-                                                                </div>
-                                                                <ul>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;"><strong>Field:</strong> Arcadia University, Jean
-                                                                    Lenox West Field</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;"><strong>Address: </strong>450 South Easton Road,
-                                                                    Glenside, PA 19038</span>
-                                                                  </li>
-                                                                </ul>
-                                                                <p>
-                                                                <h4>Program Schedule:</h4>
-                                                                <p><strong>🗓️ Dates:</strong> November 13, 2024 to first week of January 2025</p>
-                                                                <p><strong>⏰ Time:</strong> Each session will run from 6:00 PM to 7:30 PM ET on Wednesdays</p>
-                                                                <p><strong>Note:</strong> The session in the first week of January will be on Thursday, January 2nd, 2025.</p>
-                                                                <h4>🏆&nbsp;YSC League Participation:</h4>
-                                                                <ul>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Seven-game schedule plus playoffs (scheduled for January 4, 2025)</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Game Location: YSC Sports, Wayne, PA</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Game Days: Vary by age group and gender (see schedule below)</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Game Duration: 40 minutes (6 field players + 1 goalkeeper)</span>
-                                                                  </li>
-                                                                </ul>
-                                                                <p><strong>Game Schedule at YSC:</strong></p>
-                                                                <ul>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Boys U8-U11: Saturdays</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Boys U12-U13: Fridays</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Boys U14 and above: Saturdays</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Girls U8-U10: Mondays</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Girls U11: Tuesdays</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Girls U12-U13: Fridays</span>
-                                                                  </li>
-                                                                  <li
-                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
-                                                                    <span style="font-weight: 400;">Girls U14 and above: Sundays</span>
-                                                                  </li>
-                                                                </ul>
-                                                                <p>
-                                                                <h4>💸&nbsp;Next Step - Registration Payment:</h4>
-                                                                <span style="font-weight: 400;">The next step in securing ${result.playerFirstName}'s spot is to complete the registration payment of $400. <strong>We will send a separate email shortly with a unique payment link</strong> for you to complete this process securely.</span>
-                                                                <h4>💬&nbsp;Stay Tuned:</h4>
-                                                                <br>
-                                                                <span style="font-weight: 400;">We're just as excited as you are for the winter ahead! Keep an eye on your inbox for our follow-up email containing the payment link and any additional information you might need.</span>
-                                                                <br>
-                                                                <p>Thank you for choosing the AthletiFi Winter Select Program for your soccer journey in 2024-2025. Let's make it a season
-                                                                  to remember!
-                                                                </p>
-                                                                <br>
-                                                                <p>Thank you,</p>
-                                                                <p>AthletiFi Select Team</p>
-                                                              </td>
-                                                            </tr>
-                                                            <tr>
-                                                              <td align="center" style="font-size:0px;padding:10px 0;word-break:break-word;">
-                                                                <p style="border-top:solid 1px #DCDDDE;font-size:1px;margin:0px auto;width:100%;">
-                                                                </p>
-                                                                <!--[if mso | IE]>
-                                                                <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #DCDDDE;font-size:1px;margin:0px auto;width:504px;" role="presentation" width="504px" >
-                                                                  <tr>
-                                                                    <td style="height:0;line-height:0;"> &nbsp;</td>
-                                                                  </tr>
-                                                                </table>
-                                                                <![endif]-->
-                                                              </td>
-                                                            </tr>
-                                                            <tr>
-                                                              <td style="font-size:0px;padding:120;word-break:break-word;">
-                                                                <!--[if mso | IE]>
-                                                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:504px;" width="504" >
-                                                                  <tr>
-                                                                    <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-                                                                      <![endif]-->
-                                                                      <div style="margin:0px auto;max-width:504px;">
-                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-                                                                          <tbody>
-                                                                            <tr>
-                                                                              <td style="direction:ltr;font-size:0px;padding:120;text-align:center;">
-                                                                                <!--[if mso | IE]>
-                                                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                                                                                  <tr>
-                                                                                    <td align="left" class="help-text-outlook" style="" >
-                                                                                      <![endif]-->
-                                                                                      <div
-                                                                                        style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:1;text-align:left;color:#747F8D;">
-                                                                                        <p>🙋 Questions? Please don't hesitate to <a href="mailto:welcome@athletifiselect.com?subject=Question%20about%20AthletiFi%20Select" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4">contact us</a>. Your excitement and involvement make our program truly special, and we're here to ensure you have all the information you need.</p>
-                                                                                      </div>
-                                                                                      <!--[if mso | IE]>
-                                                                                    </td>
-                                                                                  </tr>
-                                                                                </table>
-                                                                                <![endif]-->
-                                                                              </td>
-                                                                            </tr>
-                                                                          </tbody>
-                                                                        </table>
-                                                                      </div>
-                                                                      <!--[if mso | IE]>
-                                                                    </td>
-                                                                  </tr>
-                                                                </table>
-                                                                <![endif]-->
-                                                              </td>
-                                                            </tr>
-                                                          </tbody>
-                                                        </table>
-                                                      </div>
-                                                      <!--[if mso | IE]>
-                                                    </td>
-                                                  </tr>
-                                                </table>
-                                                <![endif]-->
-                                              </td>
-                                            </tr>
-                                          </tbody>
-                                        </table>
-                                      </div>
-                                      <!--[if mso | IE]>
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                            <![endif]-->
-                            <!--[if mso | IE]>
-                            <tr>
-                              <td class="footer-outlook" width="604" >
-                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="footer-outlook" role="presentation" style="width:604px;" width="604" bgcolor="transparent" >
-                                  <tr>
-                                    <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
-                                      <![endif]-->
-                                      <div class="footer" style="background:transparent;background-color:transparent;margin:0px auto;max-width:604px;">
-                                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
-                                          style="background:transparent;background-color:transparent;width:100%;">
-                                          <tbody>
-                                            <tr>
-                                              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;text-align:center;">
-                                                <!--[if mso | IE]>
-                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                                                  <tr>
-                                                    <td class="" style="vertical-align:top;width:604px;" >
-                                                      <![endif]-->
-                                                      <div class="mj-column-per-100 mj-outlook-group-fix"
-                                                        style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                                                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;"
-                                                          width="100%">
-                                                          <tbody>
-                                                            <tr>
-                                                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                                                                <div
-                                                                  style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:24px;text-align:center;color:#99AAB5;">
-                                                                  Sent by AthletiFi &bull;
-                                                                  <a href="https://www.athleti.fi/news?page=1" style="color: #0092c4; text-decoration: none">Check Our
-                                                                  Blog</a>
-                                                                  &bull; <a href="https://www.instagram.com/athletifi/"
-                                                                    style="color: #0092c4; text-decoration: none">@athletifi</a>
-                                                                </div>
-                                                              </td>
-                                                            </tr>
-                                                            <tr>
-                                                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                                                                <div
-                                                                  style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:24px;text-align:center;color:#99AAB5;">
-                                                                  326 Penn Ave, West Reading, PA 19611
-                                                                </div>
-                                                              </td>
-                                                            </tr>
-                                                            <tr>
-                                                              <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                                                                <div
-                                                                  style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                                                                </div>
-                                                              </td>
-                                                            </tr>
-                                                          </tbody>
-                                                        </table>
-                                                      </div>
-                                                      <!--[if mso | IE]>
-                                                    </td>
-                                                  </tr>
-                                                </table>
-                                                <![endif]-->
-                                              </td>
-                                            </tr>
-                                          </tbody>
-                                        </table>
-                                      </div>
-                                      <!--[if mso | IE]>
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </table>
-                          <![endif]-->
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!--[if mso | IE]>
-              </td>
-            </tr>
-          </table>
-          <![endif]-->
-        </div>
-    </html>
-    `,
+                                                </td>
+                                              </tr>
+                                            </table>
+                                            <![endif]-->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <![endif]-->
+                        <!--[if mso | IE]>
+                        <tr>
+                          <td class="footer-outlook" width="604" >
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="footer-outlook" role="presentation" style="width:604px;" width="604" bgcolor="transparent" >
+                              <tr>
+                                <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+                                  <![endif]-->
+                                  <div class="footer" style="background:transparent;background-color:transparent;margin:0px auto;max-width:604px;">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:transparent;background-color:transparent;width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;text-align:center;">
+                                            <!--[if mso | IE]>
+                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                              <tr>
+                                                <td class="" style="vertical-align:top;width:604px;" >
+                                                  <![endif]-->
+                                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:24px;text-align:center;color:#99AAB5;">
+                                                              Sent by AthletiFi &bull;
+                                                              <a href="https://www.athleti.fi/news?page=1" style="color: #0092c4; text-decoration: none">Check Our
+                                                              Blog</a> &bull; <a href="https://www.instagram.com/athletifi/" style="color: #0092c4; text-decoration: none">@athletifi</a>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:24px;text-align:center;color:#99AAB5;">
+                                                              326 Penn Ave, West Reading, PA 19611
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+                                                            <div style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+                                                  <!--[if mso | IE]>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                            <![endif]-->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <![endif]-->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    </div>
+  </body>
+</html>`,
   };
   try {
     await strapi.plugins["email"].services.email.send(emailContent);
