@@ -345,7 +345,6 @@ www.athletifiselect.com
                                                               <p>Best regards,<br> AthletiFi Select Team<br>
                                                                 <a href="https://www.athletifiselect.com" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">www.athletifiselect.com</a>
                                                               </p>
-                                                              <p>🙋 Questions? We're here to help! Contact us anytime at <a href="mailto:welcome@athletifiselect.com" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">welcome@athletifiselect.com</a></p>
                                                             </div>
                                                           </td>
                                                         </tr>
@@ -380,7 +379,7 @@ www.athletifiselect.com
                                                                                 <td align="left" class="help-text-outlook" style="" >
                                                                                   <![endif]-->
                                                                                   <div style="font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;line-height:1;text-align:left;color:#747F8D;">
-                                                                                    <p>🙋 Questions? Please don't hesitate to <a href="mailto:welcome@athletifiselect.com?subject=Question%20about%20AthletiFi%20Select" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4">contact us</a>. Your excitement and involvement make our program truly special, and we're here to ensure you have all the information you need.</p>
+                                                                                  <p>🙋 Questions? We're here to help! Contact us anytime at <a href="mailto:welcome@athletifiselect.com" style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">welcome@athletifiselect.com</a></p>
                                                                                   </div>
                                                                                   <!--[if mso | IE]>
                                                                                 </td>
