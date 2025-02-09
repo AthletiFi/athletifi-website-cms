@@ -13,11 +13,11 @@ module.exports = async () => {
     });
 
     // Schedule the new email to be sent on May 20th, 2024 at 11:00 AM UTC
-    cron.schedule('0 11 20 5 *', async () => {
-    // cron.schedule('*/45 * * * * *', async () => { // Runs every 45 seconds
-      console.log(`[${new Date().toISOString()}] Sending info session email! `);
-      await sendInfoSessionEmail();
-    });
+    // cron.schedule('0 11 20 5 *', async () => {
+    // // cron.schedule('*/45 * * * * *', async () => { // Runs every 45 seconds
+    //   console.log(`[${new Date().toISOString()}] Sending info session email! `);
+    //   await sendInfoSessionEmail();
+    // });
 
     console.log(`[${new Date().toISOString()}] Cron scheduler initialized successfully. This is because SERVE_MODE is set to ${process.env.SERVE_MODE}`);
   }
