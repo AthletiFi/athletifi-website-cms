@@ -561,7 +561,7 @@ module.exports = {
 
         As the start of AthletiFi Summer Select fast approaches, we wanted to touch base with you regarding ${user.playerFirstName}'s registration. 
 
-        We are planning on finalizing teams and ordering jerseys at the end of April, and we want to ensure that ${user.playerFirstName} doesn't miss their chance to join. 
+        We are planning on finalizing teams in the next couple weeks, and we want to ensure that ${user.playerFirstName} doesn't miss their chance to join. 
 
         To guarantee ${user.playerFirstName}'s spot in the program, please click here: ${user.stripePaymentLink || 'https://www.athleti.fi/not-found'}
 
@@ -858,7 +858,7 @@ module.exports = {
                                                                         As the start of AthletiFi Summer Select fast approaches, we wanted to touch base with you regarding ${user.playerFirstName}'s registration. 
                                                                       </p>
                                                                       <p>
-                                                                        We are planning on finalizing teams and ordering jerseys at the end of April, and we want to ensure that ${user.playerFirstName} doesn't miss their chance to join. 
+                                                                        We are planning on finalizing teams in the next couple weeks and we want to ensure that ${user.playerFirstName} doesn't miss their chance to join. 
                                                                       </p>
                                                                     </div>
                                                                     <span> ⚽️&nbsp;
@@ -1899,7 +1899,7 @@ module.exports = {
         console.log(response.body);
       }
     }
-    const lastReminderDate = new Date('2024-04-23');
+    const lastReminderDate = new Date('2025-04-23');
     console.log('REminder date:',lastReminderDate.toDateString())
     console.log('Todays date:',currentDate.toDateString())
     if (currentDate.toDateString() === lastReminderDate.toDateString()) {
@@ -1928,7 +1928,7 @@ module.exports = {
 
           If you have any questions or need assistance with the payment process, please don't hesitate to reach out to us at welcome@athletifiselect.com. We're here to help!
 
-          Please note that after April 30, 2024, we cannot guarantee ${user.playerFirstName}'s spot in the program.
+          Please note that after April 30, 2025, we cannot guarantee ${user.playerFirstName}'s spot in the program.
 
           We're excited about the prospect of having ${user.playerFirstName} join us this summer and look forward to your prompt response.
 
