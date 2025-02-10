@@ -518,7 +518,7 @@ www.athletifiselect.com
         text: `
         Hello ${result.parentFirstName},
 
-        The time has come! We know many of you have been eagerly awaiting your payment link, and we're ready to move forward with completing your ${result.playerFirstName}'s registration for AthletiFi Summer Select 2025:
+        The time has come! We know you have been eagerly awaiting for the payment details, and we're ready to move forward! Here's your payment link to complete ${result.playerFirstName}'s registration for AthletiFi Summer Select 2025:
 
         🌐 Secure payment link: ${result.stripePaymentLink}
 
@@ -818,9 +818,9 @@ www.athletifiselect.com
                                                                   <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
                                                                     <p>Hello ${result.parentFirstName},</p>
                                                                     <p>
-                                                                      The time has come! We know many of you have been eagerly awaiting your payment link, and we're ready 
-                                                                      to move forward with completing your ${result.playerFirstName}'s registration for AthletiFi Summer
-                                                                      Select 2025:
+                                                                      The time has come! We know you have been eagerly awaiting for the payment details, and we're ready 
+                                                                      to move forward! Here's your payment link to complete ${result.playerFirstName}'s registration 
+                                                                      for AthletiFi Summer Select 2025:
                                                                     </p>
                                                                   </td>
                                                                 </tr>
