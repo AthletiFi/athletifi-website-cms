@@ -29,7 +29,7 @@ Each week we will have two evening training sessions on Tuesdays and Thursdays, 
 - Week 5: July 15 & 17
 - Week 6: July 22 & 24
 
-⏰ Training times will be confirmed and communicated to all participants well in advance of the program start date.
+⏰ Each session will run from 6:00 PM to 7:30 PM ET.
 
 🏆 Competitive Opportunities:
 Building on our incredible 2024 season - where every AthletiFi Select team earned championship honors - we're planning exciting tournament opportunities for Summer 2025. We'll share specific tournament details as they are confirmed.
@@ -334,8 +334,9 @@ www.athletifiselect.com
                                                                 <li>Week 5: July 15 & 17</li>
                                                                 <li>Week 6: July 22 & 24</li>
                                                               </ul>
-                                                              <h4>⏰ Training Times:</h4>
-                                                              <p>Training times will be confirmed and communicated to all participants well in advance of the program start date.</p>
+                                                              <p><strong>⏰&nbsp;Time:</strong><br>
+                                                                <span style="font-weight: 400;">Each session will run from 6:00 PM to 7:30 PM ET.</span>
+                                                              </p>
                                                               <h4>🏆 Competitive Opportunities:</h4>
                                                               <p>Building on our incredible 2024 season - where every AthletiFi Select team earned championship honors - we're planning exciting tournament opportunities for Summer 2025. We'll share specific tournament details as they are confirmed.</p>
                                                               <h4>📱 AthletiFi Player Cards & Dashboard:</h4>
