@@ -7,7 +7,7 @@ module.exports = {
       to: result.email,
       from: `AthletiFi Select <${process.env.SENDGRID_DEFAULT_EMAIL_FROM}>`,
       replyTo: process.env.SENDGRID_DEFAULT_EMAIL_REPLY_TO,
-      subject: `Thank you for Signing Up ${result.playerFirstName} for AthletiFi Summer Select 2024!`,
+      subject: `Thank you for Signing Up ${result.playerFirstName} for AthletiFi Summer Select!`,
       text: `
 Hello ${result.parentFirstName},
 
