@@ -322,17 +322,26 @@ www.athletifiselect.com
                                                               <p>Thank you for registering ${result.playerFirstName} for AthletiFi Summer Select 2025! We're excited to have you join our championship-winning program for another incredible summer of soccer development.</p>
                                                               <h4>📍 Training Location:</h4>
                                                               <p>Arcadia University, Jean Lenox West Field<br> 450 South Easton Road, Glenside, PA 19038</p>
-                                                              <h4>⚽️ Program Schedule:</h4>
-                                                              <p>Each week we will have two evening training sessions on Tuesdays and Thursdays, where we will focus on developing technical skills, tactical understanding, and game intelligence.</p>
-                                                              <h4>🗓️ Training Dates:</h4>
+                                                              <h4>🗓️ Training Schedule:</h4>
                                                               <ul>
-                                                                <li>Week 1: June 10 & 12</li>
-                                                                <li>Week 2: June 17 & 19</li>
-                                                                <li>Week 3: June 24 & 26</li>
-                                                                <li>(Break for Independence Day week)</li>
-                                                                <li>Week 4: July 8 & 10</li>
-                                                                <li>Week 5: July 15 & 17</li>
-                                                                <li>Week 6: July 22 & 24</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600; list-style-type: none;"><span style="font-weight: 400;"><strong>⚽ June 2025</strong></span></li>
+                                                                <ul>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, June 10</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, June 12</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, June 17</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, June 19</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, June 24</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, June 26</li>
+                                                                </ul>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600; list-style-type: none;"><span style="font-weight: 400;"><strong>⚽ July 2025 </strong>(No sessions July 1 & 3 for Independence Day week)</span></li>
+                                                                <ul>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, July 8</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, July 10</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, July 15</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, July 17</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, July 22</li>
+                                                                  <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, July 24</li>
+                                                                </ul>
                                                               </ul>
                                                               <p><strong>⏰&nbsp;Time:</strong><br>
                                                                 <span style="font-weight: 400;">Each session will run from 6:00 PM to 7:30 PM ET.</span>
@@ -872,8 +881,7 @@ www.athletifiselect.com
                                                                     <p>
                                                                       Looking forward to another amazing summer of soccer!
                                                                     </p>
-                                                                    <p>Best regards,</p>
-                                                                    <p>The AthletiFi Select Team</p>
+                                                                    <p>Team AthletiFi</p>
                                                                   </td>
                                                                 </tr>
                                                                 <tr>
