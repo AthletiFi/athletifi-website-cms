@@ -337,10 +337,21 @@ www.athletifiselect.com
                                                               <p><strong>⏰&nbsp;Time:</strong><br>
                                                                 <span style="font-weight: 400;">Each session will run from 6:00 PM to 7:30 PM ET.</span>
                                                               </p>
-                                                              <h4>🏆 Competitive Opportunities:</h4>
-                                                              <p>Building on our incredible 2024 season - where every AthletiFi Select team earned championship honors - we're planning exciting tournament opportunities for Summer 2025. We'll share specific tournament details as they are confirmed.</p>
-                                                              <h4>📱 AthletiFi Player Cards & Dashboard:</h4>
-                                                              <p>Each player will receive their own AthletiFi player card with access to our digital platform for tracking progress and achievements throughout the summer.</p>
+                                                              <h4>🏆&nbsp;Tournament Schedule:</h4>
+                                                              <ul>
+                                                                <li
+                                                                  style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
+                                                                  <span style="font-weight: 400;"><a href="https://www.hersheysoccer.org/summerclassic"
+                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">Hershey
+                                                                  Summer Classic:</a> June 14-15</span>
+                                                                </li>
+                                                                <li
+                                                                  style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
+                                                                  <span style="font-weight: 400;"><a href="https://www.edpsoccer.com/summer-sizzler"
+                                                                    style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">EDP Summer
+                                                                  Sizzler:</a> July 26-27</span>
+                                                                </li>
+                                                              </ul>
                                                               <h4>💫 Next Steps:</h4>
                                                               <p>The next step in securing ${result.playerFirstName}'s spot is to complete the registration payment. You'll receive a separate email shortly with your secure payment link. Once payment is completed, you'll be all set for an amazing summer of soccer!</p>
                                                               <p>Keep an eye on your inbox - we'll be sharing more updates about the program, tournaments, and other exciting details as we get closer to summer. We can't wait to see ${result.playerFirstName} on the field!</p>
@@ -1037,11 +1048,34 @@ www.athletifiselect.com
 
         Thank you for completing your payment! ${result.playerFirstName} is now officially enrolled in AthletiFi Summer Select 2025.
 
-        More details about the program, including uniforms and team communications, will be shared in the coming weeks.
+        As a reminder, here are the key details for the AthletiFi Summer Select program:
 
-        See you on the field soon!
+        🗓️ Training Schedule
+        All sessions held at Arcadia University, Jean Lenox West Field, from 6:00-7:30 PM
 
-        Best regards,
+        ⚽ June 2025
+        • Tuesday, June 10
+        • Thursday, June 12
+        • Tuesday, June 17
+        • Thursday, June 19
+        • Tuesday, June 24
+        • Thursday, June 26
+
+        ⚽ July 2025 (No sessions July 1 & 3 for Independence Day week)
+        • Tuesday, July 8
+        • Thursday, July 10
+        • Tuesday, July 15
+        • Thursday, July 17
+        • Tuesday, July 22
+        • Thursday, July 24
+
+        🏆 Tournament Schedule - Mark Your Calendars!
+        • Hershey Summer Classic: June 14-15, 2025
+        • EDP Summer Sizzler: July 26-27, 2025
+
+        Please mark your calendars and stay tuned for final confirmations and any additional tournament opportunities.
+
+        See you on the field this summer!
 
         The AthletiFi Select Team
         `,
@@ -1330,13 +1364,51 @@ www.athletifiselect.com
                                                               Thank you for completing your payment! ${result.playerFirstName} is now officially enrolled in AthletiFi Summer Select 2025.
                                                             </p>
                                                             <p>
-                                                              More details about the program, including uniforms and team communications, will be shared in the coming weeks.
+                                                              As a reminder, here are the key details for the AthletiFi Summer Select program:
                                                             </p>
+                                                            <p><strong>🗓️&nbsp;Training Schedule:</strong></p>
+                                                            <ul>
+                                                              <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600; list-style-type: none;"><span style="font-weight: 400;"><strong>⚽ June 2025</strong></span></li>
+                                                              <ul>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, June 10</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, June 12</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, June 17</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, June 19</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, June 24</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, June 26</li>
+                                                              </ul>
+                                                              <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600; list-style-type: none;"><span style="font-weight: 400;"><strong>⚽ July 2025 </strong>(No sessions July 1 & 3 for Independence Day week)</span></li>
+                                                              <ul>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, July 8</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, July 10</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, July 15</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, July 17</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Tuesday, July 22</li>
+                                                                <li style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 14px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 20px;">Thursday, July 24</li>
+                                                              </ul>
+                                                            </ul>
                                                             <p>
-                                                              See you on the field soon!
+                                                            <p><strong>📍&nbsp;Location: </strong>Arcadia University, Jean Lenox West Field (450 South Easton Road, Glenside, PA 19038)</p>
+                                                            <p><strong>⏰&nbsp;Time: </strong>Each session will be from 6:00 to 7:30 p.m.</p>
+                                                            <p><strong>🏆&nbsp;Tournament Schedule:</strong></p>
+                                                            <ul>
+                                                              <li
+                                                                style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
+                                                                <span style="font-weight: 400;"><a href="https://www.hersheysoccer.org/summerclassic"
+                                                                  style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">Hershey
+                                                                Summer Classic:</a> June 14-15</span>
+                                                              </li>
+                                                              <li
+                                                                style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #4F5660;margin: 4px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;">
+                                                                <span style="font-weight: 400;"><a href="https://www.edpsoccer.com/summer-sizzler"
+                                                                  style="font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #0092c4;">EDP Summer
+                                                                Sizzler:</a> July 26-27</span>
+                                                              </li>
+                                                            </ul>
+                                                            <p>
+                                                              See you on the field this summer!
                                                             </p>
-                                                            <p>Best regards,</p>
-                                                            <p>The AthletiFi Select Team</p>
+                                                            <p>Team AthletiFi</p>
                                                           </td>
                                                         </tr>
                                                         <tr>
