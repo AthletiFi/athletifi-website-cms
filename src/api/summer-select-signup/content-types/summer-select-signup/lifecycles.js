@@ -520,8 +520,48 @@ www.athletifiselect.com
   };
   try {
     await strapi.plugins["email"].services.email.send(emailContent);
-    console.log(`${result.parentFirstName} just registered! Email confirmation sent to ${result.email}`)
-  } catch ({response}) {
+    console.log(`${result.parentFirstName} just registered! Email confirmation sent to ${result.email}`);
+
+    // Trigger Google Analytics event *******************************************************************
+    const measurementId = process.env.GA_MEASUREMENT_ID; // Retrieve your Google Analytics Measurement ID
+
+    if (measurementId) {
+      try {
+        const response = await fetch(`https://www.google-analytics.com/mp/collect?measurement_id=${measurementId}&api_secret=${process.env.GA_API_SECRET}`, {
+          method: 'POST',
+          body: JSON.stringify({
+            client_id: 'athletifi-select-cms',
+            events: [{
+              name: 'summer_select_signup', 
+              params: {
+                email: result.email, 
+                parentFirstName: result.parentFirstName,
+                parentLastName: result.parentLastName,
+                playerFirstName: result.playerFirstName,
+                playerLastName: result.playerLastName,
+                phoneNumber: result.phoneNumber
+              }
+            }]
+          })
+          ,
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+
+        if (!response.ok) {
+          console.error(`Failed to send GA event: ${response.status} ${response.statusText}`);
+        } else {
+          console.log('Successfully sent GA event from backend!');
+        }
+      } catch (error) {
+        console.error('Error sending GA event:', error);
+      }
+    } else {
+      console.warn('NEXT_PUBLIC_GA_MEASUREMENT_ID not found.  Google Analytics event not sent.');
+    }
+  // Trigger Google Analytics event END *******************************************************************
+  } catch ({ response }) {
     console.log(response.body);
   }
 },
