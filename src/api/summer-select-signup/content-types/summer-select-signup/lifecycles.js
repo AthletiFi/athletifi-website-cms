@@ -31,8 +31,9 @@ Each week we will have two evening training sessions on Tuesdays and Thursdays, 
 
 ⏰ Each session will run from 6:00 PM to 7:30 PM ET.
 
-🏆 Competitive Opportunities:
-Building on our incredible 2024 season - where every AthletiFi Select team earned championship honors - we're planning exciting tournament opportunities for Summer 2025. We'll share specific tournament details as they are confirmed.
+🏆 Tournament Schedule - Mark Your Calendars!
+- Hershey Summer Classic: June 14-15, 2025
+- EDP Summer Sizzler: July 26-27, 2025
 
 📱 AthletiFi Player Cards & Dashboard:
 Each player will receive their own AthletiFi player card with access to our digital platform for tracking progress and achievements throughout the summer.
